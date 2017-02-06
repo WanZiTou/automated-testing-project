@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cases>
+
+<case name="login">
+		<row>
+			<data key="userName" type="string" value="admin"/>
+			<data key="passWord" type="string" value="111111"/>
+		</row>
+	
+</case>
+
+<case name="login_reg">
+		<row>
+			<data key="userName" type="string" value="cmma"/>
+			<data key="fPassWord" type="string" value="000000"/>
+			<data key="compareStr" type="string" value="用户名或密码错误"/>
+			
+		</row>
+		<row>
+			<data key="userName" type="string" value="admin"/>
+			<data key="fPassWord" type="string" value="111"/>
+			<data key="compareStr" type="string" value="用户名或密码错误"/>
+			
+		</row>
+
+		<row>
+			<data key="userName" type="string" value=""/>
+			<data key="passWord" type="string" value=""/>
+			<data key="compareStr" type="string" value="用户名或密码错误"/>
+			
+		</row>
+	
+		<row>
+			<data key="userName" type="string" value=""/>
+			<data key="passWord" type="string" value="000000"/>
+			<data key="compareStr" type="string" value="用户名或密码错误"/>
+			
+		</row>
+		<row>
+			<data key="userName" type="string" value="admin"/>
+			<data key="passWord" type="string" value=""/>
+			<data key="compareStr" type="string" value="用户名或密码错误"/>
+			
+		</row>
+
+		<row>
+			<data key="userName" type="string" value="%admin%"/>
+			<data key="passWord" type="string" value="000000"/>
+			<data key="compareStr" type="string" value="用户名或密码错误"/>
+			
+		</row>
+		<row>
+			<data key="userName" type="string" value="admin"/>
+			<data key="passWord" type="string" value="%000000%"/>
+			<data key="compareStr" type="string" value="用户名或密码错误"/>
+			
+		</row>
+		<row>
+			<data key="userName" type="string" value="%admin%"/>
+			<data key="passWord" type="string" value="%000000%"/>
+			<data key="compareStr" type="string" value="用户名或密码错误"/>
+			
+		</row>
+</case>
+</cases>

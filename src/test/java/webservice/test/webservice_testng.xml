@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+	<test verbose="2" preserve-order="true" name="loginsuit">
+    	<classes>
+	 		
+	 		
+	 		
+	<!--外网环境下运行-->
+			<class name="webservice.test.WebSeviceTest">
+				<methods>
+			 	<!--	<include name="checkInParameter" ></include>--> 
+			 	<include name="testSearchByPage" ></include> 
+			 	</methods>			
+			</class> 
+			
+
+			
+    	</classes>
+  	</test>
+  	  <listeners>
+    		<listener class-name="com.sand.qa.report.HTMLReporter"/>
+    		<listener class-name="com.sand.qa.listener.SeleniumListener"/>
+    		<listener class-name="com.sand.qa.listener.SeleniumListenerAdapter"/>
+	</listeners>
+</suite>

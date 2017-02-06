@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cases>
+	<case name="login">
+		<row>
+			<data key="userName"  type="String"  value="admin"/>
+			<data key="passWord"  type="String"  value="111111"/>
+		</row>
+	</case>
+	<case name="queryDataByConditions">
+		<row>
+			<data key="startTime"  type="String"  value="2016-12-01 15:01:55"/>
+			<data key="endTime"  type="String"  value="2016-12-02 15:01:55"/>
+			<data key="result"  type="String"  value="正常"/>
+		</row>
+	</case>
+</cases>

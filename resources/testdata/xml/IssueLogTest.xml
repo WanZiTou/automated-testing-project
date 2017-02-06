@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cases>
+	<case name="login">
+		<row>
+			<data key="userName" type="string" value="admin"/>
+			<data key="passWord" type="string" value="111111"/>
+		</row>
+	
+	</case>
+	<case name="queryLogsByConditions">
+		<row>
+			<data key="startTime" type="String"  value="2016-11-17 13:55:14" />
+			<data key="endTime" type="String"  value="2016-11-20 13:55:14" />
+			<data key="dataName" type="String"  value="路况" />
+			<data key="result" type="String"  value="否" />
+		</row>
+	</case>
+</cases>

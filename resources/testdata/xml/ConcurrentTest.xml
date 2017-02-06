@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cases>
+	<case  name="checkFrenquency">
+		<row>
+			<data key="passWord"  type="String" value="111111"/>
+			<data key="dataName"  type="String" value="高架实况数据"/>
+		</row>
+	</case> 
+</cases>

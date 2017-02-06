@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]">
+  <listeners>
+    <listener class-name="com.sand.qa.report.HTMLReporter"/>
+    <listener class-name="com.sand.qa.listener.SeleniumListener"/>
+    <listener class-name="com.sand.qa.listener.SeleniumListenerAdapter"/>
+  </listeners>
+  <test name="loginsuit(failed)">
+    <classes>
+      <class name="webservice.test.WebSeviceTest">
+        <methods>
+          <include name="before"/>
+          <include name="test"/>
+          <include name="testSearchByPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- webservice.test.WebSeviceTest -->
+    </classes>
+  </test> <!-- loginsuit(failed) -->
+</suite> <!-- Failed suite [suite] -->

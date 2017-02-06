@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cases>
+	<case  name="testScreenParameter">
+		<!-- 一个筛选条件 -->
+		<row>
+			<data key="userName"  type="String" value="liumm1"/>
+			<data key="passWord"  type="String" value="111111"/>
+			<data key="dataName"  type="String" value="快速路路况数据"/>
+			<data key="count"  type="int" value="1"/>
+		</row>
+		<!-- 筛选条件组合 -->
+		<row>
+			<data key="userName"  type="String" value="liumm1"/>
+			<data key="passWord"  type="String" value="111111"/>
+			<data key="dataName"  type="String" value="高架实况数据"/>
+			<data key="count"  type="int" value="2"/>
+		</row>
+	</case>
+</cases>

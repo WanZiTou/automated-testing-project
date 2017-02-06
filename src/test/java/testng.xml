@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+ 	<test verbose="2" preserve-order="true" name="loginsuit">
+    	<classes>
+	 		 <class name="infocenter.test.LoginTest">
+				<methods>
+			 	<include name="login"></include>
+			 	</methods>			
+			</class>  
+		</classes>
+ 		
+  	</test>
+  	
+ <!-- <test verbose="2" preserve-order="true" name="operatemanage">
+    	<classes>
+    	
+	 		 <class name="infocenter.test.operatemanage.IssueLogTest">
+				<methods>
+			 	<include name="login"></include>
+			 	<include name="queryLogsByConditions" ></include>	
+			 	</methods>			
+			</class>  
+			<class name="infocenter.test.operatemanage.OperatControlTest">
+				<methods>
+			 	<include name="login"></include>
+			 	<include name="queryDataByConditions" ></include>	
+			 	</methods>			
+			</class> 
+
+    	</classes>
+  	</test> 
+  	  <listeners>
+    		<listener class-name="com.sand.qa.report.HTMLReporter"/>
+    		<listener class-name="com.sand.qa.listener.SeleniumListener"/>
+    		<listener class-name="com.sand.qa.listener.SeleniumListenerAdapter"/>
+	</listeners>
+</suite>

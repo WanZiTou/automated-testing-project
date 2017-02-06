@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cases>
+	<case  name="testSearchByPage">
+	   <!--  404  无数据：服务端无法解析请求：缺少必要参数 -->
+		  <row>
+			<data key="userName"  type="String" value="liumm2"/>
+			<data key="passWord"  type="String" value="111111"/>
+			<data key="dataName"  type="String" value="全部路况数据"/>
+			<data key="pageNum"  type="int" value="1"/>
+		</row>
+		
+ 	</case>  
+ 	<case name="checkInParameter">
+ 		<row>
+			<data key="userName"  type="String" value="liumm2"/>
+			<data key="passWord"  type="String" value="111111"/>
+			<data key="dataName"  type="String" value="全部路况数据"/>
+		</row>
+ 	</case> 
+</cases>
