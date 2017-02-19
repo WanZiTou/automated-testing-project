@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [suite]">
+  <listeners>
+    <listener class-name="com.sand.qa.report.HTMLReporter"/>
+    <listener class-name="com.sand.qa.listener.SeleniumListener"/>
+    <listener class-name="com.sand.qa.listener.SeleniumListenerAdapter"/>
+  </listeners>
+  <test name="loginsuit(failed)">
+    <classes>
+      <class name="infocenter.test.LoginTest">
+        <methods>
+          <include name="afterBaseClass"/>
+          <include name="login"/>
+          <include name="afterTest"/>
+          <include name="beforeTestBase"/>
+        </methods>
+      </class> <!-- infocenter.test.LoginTest -->
+    </classes>
+  </test> <!-- loginsuit(failed) -->
+</suite> <!-- Failed suite [suite] -->

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+<head>
+  <title>SAND_Test - loginsuit</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="自动化测试报告." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<!-- 模板 -->
+<body>
+<h1>loginsuit</h1>
+<div class="totaltime">
+  测试集总共消耗时间: 0.002s
+</div>
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">失败的配置方法列表：</th></tr>
+              <tr class="group">
+        <td colspan="3">infocenter.test.LoginTest</td>
+      </tr>
+            <!-- 模板 -->
+<tr>
+  <td class="method">
+                  beforeTestBase
+    	<!--<font class="threadname"> (main)</font>-->
+   <font class="threadname">
+      ()
+      </font>
+  </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    <!--
+            <div class="testOutput">
+                        [SAND 2017-02-19 17:26:17] 打开Chrome浏览器<br />
+                                [SAND 2017-02-19 17:26:20] 测试方法【beforeTestBase】执行结束<br />
+                  </div>
+    -->
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="点击（展开/关闭）错误详情"><b>org.openqa.selenium.SessionNotCreatedException: session not created exception<br/>
+from unknown error: Runtime.executionContextCreated has invalid 'context': {"auxData":{"frameId":"2980.1","isDefault":true},"id":1,"name":"","origin":"://"}<br/>
+&nbsp; (Session info: chrome=56.0.2924.87)<br/>
+&nbsp; (Driver info: chromedriver=2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 1.64 seconds<br/>
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'<br/>
+System info: host: 'Lenovo-PC', ip: '192.168.31.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)<br />
+              java.lang.reflect.Constructor.newInstance(Unknown Source)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)<br />
+              org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)<br />
+              org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)<br />
+              org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)<br />
+              com.sand.qa.webdriver.DriverBase.launch(DriverBase.java:59)<br />
+              infocenter.base.TestBase.beforeTestBase(TestBase.java:50)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:552)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)<br />
+              org.testng.TestRunner.beforeRun(TestRunner.java:641)<br />
+              org.testng.TestRunner.run(TestRunner.java:609)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:348)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:254)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1149)<br />
+              org.testng.TestNG.run(TestNG.java:1057)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br />
+                </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">跳过的配置方法列表：</td></tr>
+                    <tr>
+          <td colspan="3" class="group">infocenter.test.LoginTest</td>
+        </tr>
+                <!-- 模板 -->
+<tr>
+  <td class="method">
+                  beforeBaseClass
+    	<!--<font class="threadname"> ()</font>-->
+   <font class="threadname">
+      ()
+      </font>
+  </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    <!--
+        -->
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  initPage
+    	<!--<font class="threadname"> ()</font>-->
+   <font class="threadname">
+      ()
+      </font>
+  </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    <!--
+        -->
+
+      </td>
+</tr>
+            </table>
+
+
+
+  <table class="resultsTable skipTable" width="100%">
+    <tr><th colspan="3" class="header skipped">跳过的测试列表：</th></tr>
+          <tr>
+        <td colspan="3" class="group">infocenter.test.LoginTest</td>
+      </tr>
+            <!-- 模板 -->
+<tr>
+  <td class="method">
+                  login
+    	<!--<font class="threadname"> (main)</font>-->
+   <font class="threadname">
+      ()
+      </font>
+  </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>测试参数: </i><span class="arguments">"admin", "111111"</span><br />
+    <!--
+        -->
+
+      </td>
+</tr>
+      </table>
+
+
+</body>
+</html>

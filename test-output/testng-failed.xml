@@ -8,13 +8,14 @@
   </listeners>
   <test name="loginsuit(failed)">
     <classes>
-      <class name="webservice.test.WebSeviceTest">
+      <class name="infocenter.test.LoginTest">
         <methods>
-          <include name="before"/>
-          <include name="test"/>
-          <include name="testSearchByPage" invocation-numbers="0"/>
+          <include name="afterBaseClass"/>
+          <include name="login"/>
+          <include name="afterTest"/>
+          <include name="beforeTestBase"/>
         </methods>
-      </class> <!-- webservice.test.WebSeviceTest -->
+      </class> <!-- infocenter.test.LoginTest -->
     </classes>
   </test> <!-- loginsuit(failed) -->
 </suite> <!-- Failed suite [suite] -->

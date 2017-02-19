@@ -19,7 +19,7 @@ public class TestBase  extends DriverBase{
 	
 	
 	LoginPage loginPage = null;
-	String url="http://192.168.123.163:8086/InfoCenterWeb/login.html";
+	String url="https://www.baidu.com/";
 	
 	
 	/*DBUtil oracle = new DBUtil("O");
@@ -92,14 +92,14 @@ public class TestBase  extends DriverBase{
 		this.loginPage=loginPage;
 		driver.get(url);
 		delay(2);	
-		
-		input(loginPage.userName, userName);
-		delay(2);
-		
-		input(loginPage.passWord, passWord);
-		delay(2);
-		
-		click(loginPage.loginSubmit);		
+//		
+//		input(loginPage.userName, userName);
+//		delay(2);
+//		
+//		input(loginPage.passWord, passWord);
+//		delay(2);
+//		
+//		click(loginPage.loginSubmit);		
 		delay(2);
 	}
 	

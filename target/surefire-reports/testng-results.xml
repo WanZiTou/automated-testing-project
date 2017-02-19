@@ -1,122 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[[sand 2016-12-02 15:31:26] =======================================================]]>
+      <![CDATA[[sand 2017-02-19 18:10:31] =======================================================]]>
     </line>
     <line>
-      <![CDATA[[sand 2016-12-02 15:31:26]                     测试框架执行开始]]>
+      <![CDATA[[sand 2017-02-19 18:10:31]                     测试框架执行开始]]>
     </line>
     <line>
-      <![CDATA[[sand 2016-12-02 15:31:26] =======================================================]]>
+      <![CDATA[[sand 2017-02-19 18:10:31] =======================================================]]>
     </line>
     <line>
-      <![CDATA[[sand 2016-12-02 15:31:26] 初始化配置文件]]>
+      <![CDATA[[sand 2017-02-19 18:10:31] 初始化配置文件]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:26] 测试套件【suite】执行开始]]>
+      <![CDATA[[SAND 2017-02-19 18:10:31] 测试套件【suite】执行开始]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:26] 测试集【loginsuit】执行开始 ]]>
+      <![CDATA[[SAND 2017-02-19 18:10:31] 测试集【loginsuit】执行开始 ]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:26] 测试集【loginsuit】执行结束]]>
+      <![CDATA[[SAND 2017-02-19 18:10:31] 测试方法【beforeTestBase】执行开始]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:26] 测试集【operatemanage】执行开始 ]]>
+      <![CDATA[[SAND 2017-02-19 18:10:31] 打开Chrome浏览器]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:26] 测试方法【beforeTestBase】执行开始]]>
+      <![CDATA[[SAND 2017-02-19 18:10:33] 设置全局显示等待:10]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:26] 打开Chrome浏览器]]>
+      <![CDATA[[SAND 2017-02-19 18:10:35] 测试方法【beforeTestBase】执行结束]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:28] 设置全局显示等待:10]]>
+      <![CDATA[[SAND 2017-02-19 18:10:35] 测试方法【beforeBaseClass】执行开始]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:28] 测试方法【beforeTestBase】执行结束]]>
+      <![CDATA[[SAND 2017-02-19 18:10:35] +++++++++++++++++++++++++++++连接数据库]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:28] 测试方法【beforeBaseClass】执行开始]]>
+      <![CDATA[[SAND 2017-02-19 18:10:35] 测试方法【beforeBaseClass】执行结束]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:28] +++++++++++++++++++++++++++++连接数据库]]>
+      <![CDATA[[SAND 2017-02-19 18:10:35] 测试方法【initPage】执行开始]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:28] 测试方法【beforeBaseClass】执行结束]]>
+      <![CDATA[[SAND 2017-02-19 18:10:35] 测试方法【initPage】执行结束]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:28] 测试方法【initPage】执行开始]]>
+      <![CDATA[[SAND 2017-02-19 18:10:35] 测试方法【login】执行开始]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:28] 测试方法【initPage】执行结束]]>
+      <![CDATA[[SAND 2017-02-19 18:10:41] 测试方法【login】执行结束]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:29] 测试方法【afterBaseClass】执行开始]]>
+      <![CDATA[[SAND 2017-02-19 18:10:41] =======================================================]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:29] 测试方法【afterBaseClass】执行结束]]>
+      <![CDATA[[SAND 2017-02-19 18:10:41] 测试方法 【login】 执行成功！]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:29] 测试方法【afterTest】执行开始]]>
+      <![CDATA[[SAND 2017-02-19 18:10:41] =======================================================]]>
     </line>
     <line>
-      <![CDATA[[SAND 2016-12-02 15:31:30] 测试方法【afterTest】执行结束]]>
+      <![CDATA[[SAND 2017-02-19 18:10:41] 测试方法【afterBaseClass】执行开始]]>
+    </line>
+    <line>
+      <![CDATA[[SAND 2017-02-19 18:10:41] 测试方法【afterBaseClass】执行结束]]>
+    </line>
+    <line>
+      <![CDATA[[SAND 2017-02-19 18:10:41] 测试方法【afterTest】执行开始]]>
+    </line>
+    <line>
+      <![CDATA[[SAND 2017-02-19 18:10:43] 测试方法【afterTest】执行结束]]>
     </line>
   </reporter-output>
-  <suite name="suite" duration-ms="3669" started-at="2016-12-02T07:31:26Z" finished-at="2016-12-02T07:31:30Z">
+  <suite name="suite" duration-ms="11068" started-at="2017-02-19T10:10:31Z" finished-at="2017-02-19T10:10:43Z">
     <groups>
+      <group name="login">
+        <method signature="LoginTest.login(java.lang.String, java.lang.String)[pri:0, instance:infocenter.test.LoginTest@146ba0ac]" name="login" class="infocenter.test.LoginTest"/>
+      </group> <!-- login -->
     </groups>
-    <test name="loginsuit" duration-ms="0" started-at="2016-12-02T07:31:26Z" finished-at="2016-12-02T07:31:26Z">
-    </test> <!-- loginsuit -->
-    <test name="operatemanage" duration-ms="3653" started-at="2016-12-02T07:31:26Z" finished-at="2016-12-02T07:31:30Z">
-      <class name="infocenter.test.operatemanage.OperatControlTest">
-        <test-method status="PASS" signature="beforeTestBase()[pri:0, instance:infocenter.test.operatemanage.OperatControlTest@2f686d1f]" name="beforeTestBase" is-config="true" duration-ms="2238" started-at="2016-12-02T15:31:26Z" finished-at="2016-12-02T15:31:28Z">
+    <test name="loginsuit" duration-ms="11068" started-at="2017-02-19T10:10:31Z" finished-at="2017-02-19T10:10:43Z">
+      <class name="infocenter.test.LoginTest">
+        <test-method status="PASS" signature="beforeTestBase()[pri:0, instance:infocenter.test.LoginTest@146ba0ac]" name="beforeTestBase" is-config="true" duration-ms="3032" started-at="2017-02-19T18:10:31Z" finished-at="2017-02-19T18:10:35Z">
           <reporter-output>
             <line>
-              <![CDATA[[SAND 2016-12-02 15:31:26] 打开Chrome浏览器]]>
+              <![CDATA[[SAND 2017-02-19 18:10:31] 打开Chrome浏览器]]>
             </line>
             <line>
-              <![CDATA[[SAND 2016-12-02 15:31:28] 设置全局显示等待:10]]>
+              <![CDATA[[SAND 2017-02-19 18:10:33] 设置全局显示等待:10]]>
             </line>
             <line>
-              <![CDATA[[SAND 2016-12-02 15:31:28] 测试方法【beforeTestBase】执行结束]]>
+              <![CDATA[[SAND 2017-02-19 18:10:35] 测试方法【beforeTestBase】执行结束]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeTestBase -->
-        <test-method status="PASS" signature="beforeBaseClass()[pri:0, instance:infocenter.test.operatemanage.OperatControlTest@2f686d1f]" name="beforeBaseClass" is-config="true" duration-ms="1" started-at="2016-12-02T15:31:28Z" finished-at="2016-12-02T15:31:28Z">
+        <test-method status="PASS" signature="beforeBaseClass()[pri:0, instance:infocenter.test.LoginTest@146ba0ac]" name="beforeBaseClass" is-config="true" duration-ms="0" started-at="2017-02-19T18:10:35Z" finished-at="2017-02-19T18:10:35Z">
           <reporter-output>
             <line>
-              <![CDATA[[SAND 2016-12-02 15:31:28] +++++++++++++++++++++++++++++连接数据库]]>
+              <![CDATA[[SAND 2017-02-19 18:10:35] +++++++++++++++++++++++++++++连接数据库]]>
             </line>
             <line>
-              <![CDATA[[SAND 2016-12-02 15:31:28] 测试方法【beforeBaseClass】执行结束]]>
+              <![CDATA[[SAND 2017-02-19 18:10:35] 测试方法【beforeBaseClass】执行结束]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeBaseClass -->
-        <test-method status="PASS" signature="initPage()[pri:0, instance:infocenter.test.operatemanage.OperatControlTest@2f686d1f]" name="initPage" is-config="true" duration-ms="10" started-at="2016-12-02T15:31:28Z" finished-at="2016-12-02T15:31:28Z">
+        <test-method status="PASS" signature="initPage()[pri:0, instance:infocenter.test.LoginTest@146ba0ac]" name="initPage" is-config="true" duration-ms="12" started-at="2017-02-19T18:10:35Z" finished-at="2017-02-19T18:10:35Z">
           <reporter-output>
             <line>
-              <![CDATA[[SAND 2016-12-02 15:31:28] 测试方法【initPage】执行结束]]>
+              <![CDATA[[SAND 2017-02-19 18:10:35] 测试方法【initPage】执行结束]]>
             </line>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method status="PASS" signature="afterBaseClass()[pri:0, instance:infocenter.test.operatemanage.OperatControlTest@2f686d1f]" name="afterBaseClass" is-config="true" duration-ms="0" started-at="2016-12-02T15:31:29Z" finished-at="2016-12-02T15:31:29Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:infocenter.test.LoginTest@146ba0ac]" name="login" duration-ms="6538" started-at="2017-02-19T18:10:35Z" data-provider="xml" finished-at="2017-02-19T18:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[[SAND 2016-12-02 15:31:29] 测试方法【afterBaseClass】执行结束]]>
+              <![CDATA[[SAND 2017-02-19 18:10:41] 测试方法【login】执行结束]]>
+            </line>
+            <line>
+              <![CDATA[[SAND 2017-02-19 18:10:41] =======================================================]]>
+            </line>
+            <line>
+              <![CDATA[[SAND 2017-02-19 18:10:41] 测试方法 【login】 执行成功！]]>
+            </line>
+            <line>
+              <![CDATA[[SAND 2017-02-19 18:10:41] =======================================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterBaseClass()[pri:0, instance:infocenter.test.LoginTest@146ba0ac]" name="afterBaseClass" is-config="true" duration-ms="1" started-at="2017-02-19T18:10:41Z" finished-at="2017-02-19T18:10:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[SAND 2017-02-19 18:10:41] 测试方法【afterBaseClass】执行结束]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterBaseClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:infocenter.test.operatemanage.OperatControlTest@2f686d1f]" name="afterTest" is-config="true" duration-ms="1305" started-at="2016-12-02T15:31:29Z" finished-at="2016-12-02T15:31:30Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:infocenter.test.LoginTest@146ba0ac]" name="afterTest" is-config="true" duration-ms="1350" started-at="2017-02-19T18:10:41Z" finished-at="2017-02-19T18:10:43Z">
           <reporter-output>
             <line>
-              <![CDATA[[SAND 2016-12-02 15:31:30] 测试方法【afterTest】执行结束]]>
+              <![CDATA[[SAND 2017-02-19 18:10:43] 测试方法【afterTest】执行结束]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- infocenter.test.operatemanage.OperatControlTest -->
-    </test> <!-- operatemanage -->
+      </class> <!-- infocenter.test.LoginTest -->
+    </test> <!-- loginsuit -->
   </suite> <!-- suite -->
 </testng-results>

@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="suite">
- 	<test verbose="2" preserve-order="true" name="loginsuit">
+ 	 <test verbose="2" preserve-order="true" name="loginsuit">
     	<classes>
 	 		 <class name="infocenter.test.LoginTest">
 				<methods>
@@ -10,8 +10,8 @@
 		</classes>
  		
   	</test>
-  	
- <!-- <test verbose="2" preserve-order="true" name="operatemanage">
+  	<!-- 
+    <test verbose="2" preserve-order="true" name="operatemanage">
     	<classes>
     	
 	 		 <class name="infocenter.test.operatemanage.IssueLogTest">
@@ -28,7 +28,7 @@
 			</class> 
 
     	</classes>
-  	</test> 
+  	</test>  -->
   	  <listeners>
     		<listener class-name="com.sand.qa.report.HTMLReporter"/>
     		<listener class-name="com.sand.qa.listener.SeleniumListener"/>
